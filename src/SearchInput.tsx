@@ -6,7 +6,11 @@ export interface ISearchInputProps {
 }
 
 const SearchInput: React.FC<ISearchInputProps> = ({ isMobile = false }) => {
-  return <input className={styles.input} />
+  return (
+    <div className={styles.search}>
+      <input className={styles.input} />
+    </div>
+  )
 }
 
 export default SearchInput

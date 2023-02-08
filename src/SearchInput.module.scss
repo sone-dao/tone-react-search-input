@@ -1,10 +1,15 @@
-.input {
-  all: unset;
+.search {
   align-items: center;
   border: 1px solid black;
-  box-sizing: border-box;
   display: flex;
   justify-content: center;
+  padding: 1em;
   max-width: 300px;
+}
+
+.input {
+  all: unset;
+  box-sizing: border-box;
+  font-size: var(--font-copy-main-family);
   width: 100%;
 }
